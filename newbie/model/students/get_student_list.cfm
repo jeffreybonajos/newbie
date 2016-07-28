@@ -1,0 +1,1 @@
+<cfset get_student_list = "#application.studentsServices.getAllStudents()#" />

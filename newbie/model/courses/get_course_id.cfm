@@ -1,0 +1,1 @@
+<cfset get_course_by_id = "#application.coursesServices.getCourseByID(url.courseID)#" />
