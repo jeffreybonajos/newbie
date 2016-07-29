@@ -1,8 +1,6 @@
 
 <body>
 	
-
-<h2><a href= "Index.cfm"> Home </a></h2>
 <nav class="navbar navbar-default">
 <div class="container-fluid">
 	<ul class="nav navbar-nav">
@@ -13,7 +11,8 @@
   </div>
 </nav>
 <div class="container">
-<h2> Students Status </h2>
+<div class="table-responsive">
+	<h2> Status </h2>
 		<table class="table table-bordered">
 			<tr>
 				<th> Students Name</th>
@@ -28,7 +27,7 @@
 			</tr>
 			</cfoutput>
 		</table>
-
+</div>
 </div>
 		
 </body>

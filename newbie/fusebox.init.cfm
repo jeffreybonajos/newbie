@@ -36,6 +36,8 @@
 	<cfset xfa.teacher_edit = "teachers.view" />
 	<cfset xfa.teacher_delete = "teachers.delete" />
 	
+	<cfset xfa.all_main = "all.mainPage" />
+	
 
  <cfparam name="url.appReload" type="string" default="false"/>
     <cfif not structKeyExists(application, 'appInitialized') or url.appReload>

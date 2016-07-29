@@ -13,18 +13,17 @@
 		}
 </script>
 	
-
-
-<h1> Students </h1>
 <nav class="navbar navbar-default">
 <div class="container-fluid">
 	<ul class="nav navbar-nav">
-		<li><a href="index.cfm">Home</a></li>
+		<li><a href="<cfoutput>#mySelf##xfa.all_main#</cfoutput>">Home</a></li>
 		<li><a href="<cfoutput>#mySelf##xfa.student_add#</cfoutput>">Add Student</a></li>
 	</ul>
   </div>
 </nav>
 <div class="container">
+	<div class="table-responsive">
+	<h2> Students </h2>
 		<table class="table table-bordered">
 			<tr>
 				<th> First Name</th>
@@ -43,6 +42,7 @@
 			</tr>
 			</cfoutput>
 		</table>
+	</div>
 </div>
 		
 </body>

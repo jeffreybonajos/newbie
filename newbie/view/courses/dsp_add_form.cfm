@@ -3,7 +3,7 @@
 <nav class="navbar navbar-default">
 <div class="container-fluid">
 	<ul class="nav navbar-nav">
-		<li><a href="courses.cfm">Course</a></li>
+		<li><a href="<cfoutput>#mySelf##xfa.course_main#</cfoutput>">Course</a></li>
 	</ul>
   </div>
 </nav>
