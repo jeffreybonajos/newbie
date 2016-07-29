@@ -39,8 +39,8 @@
 				<th>#Get_Course_List.fld_courseName#</th>
 				<th>#Get_Course_List.fld_courseDes#</th>
 				<th>#Get_Course_List.fld_teacherLname#</th>
-				<th><a class="btn btn-info" href="#mySelf##xfa.course_edit#&courseID=#Get_Course_List.fld_courseID#">Edit</a>
-				<a class="btn btn-info" href="javascript:confirmDelete(#fld_courseID#);">Delete</a></th>
+				<th><a class="btn btn-info btn-sm" href="#mySelf##xfa.course_edit#&courseID=#Get_Course_List.fld_courseID#"><span class="glyphicon glyphicon-edit"></span>&nbspEdit</a>
+				<a class="btn btn-info btn-sm" href="javascript:confirmDelete(#fld_courseID#);"><span class="glyphicon glyphicon-trash"></span>&nbspDelete</a></th>
 				
 			</tr>
 			</cfoutput>

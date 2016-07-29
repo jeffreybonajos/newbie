@@ -36,8 +36,8 @@
 			<tr>
 				<th>#Get_Teacher_List.fld_teacherFname#</th>
 				<th>#Get_Teacher_List.fld_teacherLname#</th>
-				<th><a class="btn btn-info" href="#mySelf##xfa.teacher_edit#&teacherID=#Get_Teacher_List.fld_teacherID#">Edit</a>	
-				<a class="btn btn-info" href="javascript:confirmDelete(#fld_teacherID#);">Delete</a></th>
+				<th><a class="btn btn-info btn-sm" href="#mySelf##xfa.teacher_edit#&teacherID=#Get_Teacher_List.fld_teacherID#"><span class="glyphicon glyphicon-edit"></span>&nbspEdit</a>	
+				<a class="btn btn-info btn-sm" href="javascript:confirmDelete(#fld_teacherID#);"><span class="glyphicon glyphicon-trash"></span>&nbspDelete</a></th>
 				
 			</tr>
 			</cfoutput>

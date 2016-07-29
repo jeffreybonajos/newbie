@@ -36,8 +36,8 @@
 				<th>#get_student_list.fld_studentFname#</th>
 				<th>#get_student_list.fld_studentLname#</th>
 				<th>#get_student_list.fld_courseName#</th>
-				<th><a class="btn btn-info" href="#mySelf##xfa.student_edit#&studentID=#get_student_list.fld_studentID#" name="submit">Edit</a>
-				<a class="btn btn-info" href="javascript:confirmDelete(#get_student_list.fld_studentID#);">Delete</a></th>
+				<th><a class="btn btn-info btn-sm" href="#mySelf##xfa.student_edit#&studentID=#get_student_list.fld_studentID#" name="submit"><span class="glyphicon glyphicon-edit"></span>&nbspEdit</a>
+				<a class="btn btn-info btn-sm" href="javascript:confirmDelete(#get_student_list.fld_studentID#);"><span class="glyphicon glyphicon-trash"></span>&nbspDelete</a></th>
 				
 			</tr>
 			</cfoutput>
