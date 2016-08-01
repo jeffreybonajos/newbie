@@ -10,7 +10,7 @@
 	
 <div class="container">
 <h2> Edit Student </h2>
-<cfform class="form-horizontal" name= "editStudent" method = "post" action="index.cfm?fuseaction=students.update" > 
+<cfform class="form-horizontal" name= "editStudent" method = "post" > 
 	<label> First Name:</label>
     <cfinput class="form-control" type = "text" name = "fld_studentFname" id="fld_studentFname" value="#get_student_by_id.fld_studentFname#" required="true" message="Please provide a valid first name" validateAt="onSubmit"/>
 	<br>
@@ -24,6 +24,7 @@
 	<cfinput name="fld_studentID" id="fld_studentID" type= "hidden" value = "#get_student_by_id.fld_studentID#" />
 	<br>
     <cfinput type = "submit" class="btn btn-info" name="fld_editStudent" id="fld_editStudent" value="Edit Student" > 
+	<input type="Hidden" name="fuseaction" value="students.update">
 </cfform>
 
 </div>

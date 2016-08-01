@@ -35,6 +35,7 @@
 	<cfset xfa.teacher_add = "teachers.add" />
 	<cfset xfa.teacher_edit = "teachers.view" />
 	<cfset xfa.teacher_delete = "teachers.delete" />
+	<cfset xfa.teacher_update = "teachers.update" />
 	
 	<cfset xfa.all_main = "all.mainPage" />
 	

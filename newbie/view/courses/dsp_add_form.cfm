@@ -10,7 +10,7 @@
 	
 <div class="container">
 <h2> Add Course </h2>
-<cfform class="form-horizontal" name= "editStudent" method = "post" action="index.cfm?fuseaction=courses.save"> 
+<cfform class="form-horizontal" name= "editStudent" method = "post"> 
 	<label> Course Name:</label>
     <cfinput class="form-control" type = "text" name = "fld_courseName" id="fld_courseName" required="true" message="Please provide a valid first name" validateAt="onSubmit"/>
 	<br>
@@ -23,6 +23,7 @@
 	</cfselect>
 	<br>
     <input type = "submit" class="btn btn-info" name="fld_addCourse" id="fld_addCourse" value="Add Course" > 
+	<input type="Hidden" name="fuseaction" value="courses.save">
 </cfform>
 
 </div>
